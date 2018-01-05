@@ -13,6 +13,8 @@
 		059131711FFF9B3E003B1BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059131701FFF9B3E003B1BCB /* Assets.xcassets */; };
 		059131751FFF9B65003B1BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059131731FFF9B65003B1BCB /* LaunchScreen.storyboard */; };
 		059131761FFF9B65003B1BCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059131741FFF9B65003B1BCB /* Info.plist */; };
+		0591317A1FFF9D38003B1BCB /* GSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059131791FFF9D38003B1BCB /* GSView.swift */; };
+		0591317C1FFF9D51003B1BCB /* GSView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0591317B1FFF9D51003B1BCB /* GSView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		059131701FFF9B3E003B1BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059131731FFF9B65003B1BCB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059131741FFF9B65003B1BCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059131791FFF9D38003B1BCB /* GSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSView.swift; sourceTree = "<group>"; };
+		0591317B1FFF9D51003B1BCB /* GSView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GSView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		059131561FFF9AE0003B1BCB /* Generic Structure */ = {
 			isa = PBXGroup;
 			children = (
+				059131771FFF9D07003B1BCB /* Controls */,
 				0591316F1FFF9B3E003B1BCB /* Resources */,
 				0591316C1FFF9B1C003B1BCB /* Storyboards */,
 				059131721FFF9B65003B1BCB /* Support Files */,
@@ -95,6 +100,23 @@
 				059131741FFF9B65003B1BCB /* Info.plist */,
 			);
 			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		059131771FFF9D07003B1BCB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				059131781FFF9D22003B1BCB /* GSView */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		059131781FFF9D22003B1BCB /* GSView */ = {
+			isa = PBXGroup;
+			children = (
+				059131791FFF9D38003B1BCB /* GSView.swift */,
+				0591317B1FFF9D51003B1BCB /* GSView.xib */,
+			);
+			path = GSView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +180,7 @@
 			files = (
 				059131761FFF9B65003B1BCB /* Info.plist in Resources */,
 				059131751FFF9B65003B1BCB /* LaunchScreen.storyboard in Resources */,
+				0591317C1FFF9D51003B1BCB /* GSView.xib in Resources */,
 				0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */,
 				059131711FFF9B3E003B1BCB /* Assets.xcassets in Resources */,
 			);
@@ -172,6 +195,7 @@
 			files = (
 				0591316B1FFF9AFB003B1BCB /* ViewController.swift in Sources */,
 				059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */,
+				0591317A1FFF9D38003B1BCB /* GSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
