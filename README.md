@@ -1,2 +1,2 @@
 # genericstructure
-Generic structure for a MVC iOS App
+Generic structure in Swift for a MVC iOS App
