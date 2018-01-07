@@ -1,0 +1,6 @@
+framework module Pods_Generic_Structure {
+  umbrella header "Pods-Generic Structure-umbrella.h"
+
+  export *
+  module * { export * }
+}
