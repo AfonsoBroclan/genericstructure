@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05881B0A20029CB400D7512C /* ServiceManager.swift */; };
 		059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059131571FFF9AE0003B1BCB /* AppDelegate.swift */; };
 		0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591316D1FFF9B1C003B1BCB /* Main.storyboard */; };
 		059131711FFF9B3E003B1BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059131701FFF9B3E003B1BCB /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05881B0A20029CB400D7512C /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		059131541FFF9AE0003B1BCB /* Generic Structure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generic Structure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059131571FFF9AE0003B1BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0591316D1FFF9B1C003B1BCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05881B0920029CA700D7512C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				05881B0A20029CB400D7512C /* ServiceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		0591314B1FFF9AE0003B1BCB = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				059131771FFF9D07003B1BCB /* Controls */,
+				05881B0920029CA700D7512C /* Managers */,
 				0591316F1FFF9B3E003B1BCB /* Resources */,
 				0591316C1FFF9B1C003B1BCB /* Storyboards */,
 				059131721FFF9B65003B1BCB /* Support Files */,
@@ -196,6 +207,7 @@
 				059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */,
 				0591317E1FFF9E02003B1BCB /* GSViewController.swift in Sources */,
 				0591317A1FFF9D38003B1BCB /* GSView.swift in Sources */,
+				05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
