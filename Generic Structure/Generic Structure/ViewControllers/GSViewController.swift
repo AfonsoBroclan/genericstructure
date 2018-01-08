@@ -19,6 +19,8 @@ class GSViewController: UIViewController {
     //loading variables
     private var loadingCount = 0
     private var activityIndicator : UIActivityIndicatorView?
+    var loadingColor: UIColor = .black //change here, if you wish a different color for the activity indicator, or adapt in each view controller
+    var loadingBackgroundColor: UIColor = .gray //change here, if you wish a different background color for the activity indicator, or adapt in each view controller
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +30,7 @@ class GSViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -110,7 +112,8 @@ class GSViewController: UIViewController {
         self.activityIndicator?.clipsToBounds = true
         self.activityIndicator?.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.activityIndicator?.isHidden = true
-        self.activityIndicator?.color = .black
+        self.activityIndicator?.color = self.loadingColor
+        self.activityIndicator?.backgroundColor = self.loadingBackgroundColor
         
         if let activityIndicator = self.activityIndicator {
             self.view.addSubview(activityIndicator)
