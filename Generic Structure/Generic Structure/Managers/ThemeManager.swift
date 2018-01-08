@@ -21,7 +21,7 @@ class ThemeManager {
         
         self.themes = [
             ThemeManager.darkGrayRegular1 : [
-                "textColor" : UIColor.gray,
+                "textColor" : UIColor.mGray1,
                 "font" : UIFont.systemFont(ofSize: 20.0)
             ],
         ]
