@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05565DF7200391540072092F /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DF6200391540072092F /* ThemeManager.swift */; };
 		05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05881B0A20029CB400D7512C /* ServiceManager.swift */; };
 		059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059131571FFF9AE0003B1BCB /* AppDelegate.swift */; };
 		0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591316D1FFF9B1C003B1BCB /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05565DF6200391540072092F /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		05881B0A20029CB400D7512C /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		059131541FFF9AE0003B1BCB /* Generic Structure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generic Structure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059131571FFF9AE0003B1BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				05881B0A20029CB400D7512C /* ServiceManager.swift */,
+				05565DF6200391540072092F /* ThemeManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */,
 				0591317E1FFF9E02003B1BCB /* GSViewController.swift in Sources */,
+				05565DF7200391540072092F /* ThemeManager.swift in Sources */,
 				0591317A1FFF9D38003B1BCB /* GSView.swift in Sources */,
 				05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */,
 			);
