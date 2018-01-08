@@ -11,6 +11,7 @@
 		05565DFA2003964F0072092F /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DF92003964F0072092F /* UILabel+Additions.swift */; };
 		05565DFC20039AE50072092F /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DFB20039AE50072092F /* UIColor+Additions.swift */; };
 		05565DFF20039D7F0072092F /* ExampleServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DFE20039D7F0072092F /* ExampleServiceObject.swift */; };
+		05565E022003B66A0072092F /* Localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05565E042003B66A0072092F /* Localizables.strings */; };
 		05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05881B0A20029CB400D7512C /* ServiceManager.swift */; };
 		059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059131571FFF9AE0003B1BCB /* AppDelegate.swift */; };
 		0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591316D1FFF9B1C003B1BCB /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		05565DF92003964F0072092F /* UILabel+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
 		05565DFB20039AE50072092F /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		05565DFE20039D7F0072092F /* ExampleServiceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleServiceObject.swift; sourceTree = "<group>"; };
+		05565E032003B66A0072092F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizables.strings; sourceTree = "<group>"; };
 		05881B0A20029CB400D7512C /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		059131541FFF9AE0003B1BCB /* Generic Structure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generic Structure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059131571FFF9AE0003B1BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				059131701FFF9B3E003B1BCB /* Assets.xcassets */,
+				05565E042003B66A0072092F /* Localizables.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				059131761FFF9B65003B1BCB /* Info.plist in Resources */,
 				059131751FFF9B65003B1BCB /* LaunchScreen.storyboard in Resources */,
 				0591317C1FFF9D51003B1BCB /* GSView.xib in Resources */,
+				05565E022003B66A0072092F /* Localizables.strings in Resources */,
 				0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */,
 				059131711FFF9B3E003B1BCB /* Assets.xcassets in Resources */,
 			);
@@ -327,6 +331,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05565E042003B66A0072092F /* Localizables.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05565E032003B66A0072092F /* en */,
+			);
+			name = Localizables.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		059131641FFF9AE0003B1BCB /* Debug */ = {
