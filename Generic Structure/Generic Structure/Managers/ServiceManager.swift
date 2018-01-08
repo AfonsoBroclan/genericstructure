@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 
+//singleton to handle all the service requests
 class ServiceManager {
     
     static let sharedInstance = ServiceManager()

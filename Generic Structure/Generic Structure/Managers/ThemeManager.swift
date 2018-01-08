@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+//singleton to handle the themes the application will use
 class ThemeManager {
     
     static let darkGrayRegular1 = "darkGrayRegular1"

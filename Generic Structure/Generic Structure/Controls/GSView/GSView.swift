@@ -34,6 +34,7 @@ class GSView: UIView {
         self.addSubview(self.view)
     }
     
+    //if you need to add your own setup function to a child of this class, make it private as well
     private func setup(){
         self.setupNib()
     }
