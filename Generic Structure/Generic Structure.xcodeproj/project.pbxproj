@@ -10,6 +10,7 @@
 		05565DF7200391540072092F /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DF6200391540072092F /* ThemeManager.swift */; };
 		05565DFA2003964F0072092F /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DF92003964F0072092F /* UILabel+Additions.swift */; };
 		05565DFC20039AE50072092F /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DFB20039AE50072092F /* UIColor+Additions.swift */; };
+		05565DFF20039D7F0072092F /* ExampleServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05565DFE20039D7F0072092F /* ExampleServiceObject.swift */; };
 		05881B0B20029CB400D7512C /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05881B0A20029CB400D7512C /* ServiceManager.swift */; };
 		059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059131571FFF9AE0003B1BCB /* AppDelegate.swift */; };
 		0591316E1FFF9B1C003B1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591316D1FFF9B1C003B1BCB /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		05565DF6200391540072092F /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		05565DF92003964F0072092F /* UILabel+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
 		05565DFB20039AE50072092F /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		05565DFE20039D7F0072092F /* ExampleServiceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleServiceObject.swift; sourceTree = "<group>"; };
 		05881B0A20029CB400D7512C /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		059131541FFF9AE0003B1BCB /* Generic Structure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generic Structure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059131571FFF9AE0003B1BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		05565DFD20039D480072092F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05565DFE20039D7F0072092F /* ExampleServiceObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		05881B0920029CA700D7512C /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 			children = (
 				05565DF8200396320072092F /* Categories */,
 				059131771FFF9D07003B1BCB /* Controls */,
+				05565DFD20039D480072092F /* Model */,
 				05881B0920029CA700D7512C /* Managers */,
 				0591316F1FFF9B3E003B1BCB /* Resources */,
 				0591316C1FFF9B1C003B1BCB /* Storyboards */,
@@ -305,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059131581FFF9AE0003B1BCB /* AppDelegate.swift in Sources */,
+				05565DFF20039D7F0072092F /* ExampleServiceObject.swift in Sources */,
 				0591317E1FFF9E02003B1BCB /* GSViewController.swift in Sources */,
 				05565DF7200391540072092F /* ThemeManager.swift in Sources */,
 				0591317A1FFF9D38003B1BCB /* GSView.swift in Sources */,
